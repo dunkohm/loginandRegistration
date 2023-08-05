@@ -1,0 +1,38 @@
+
+:root{
+    --white: #fff;
+    --primary:#cc1515;
+
+}
+html, body{
+    background-image: url(images/backOne.jpg);
+    background-repeat: no-repeat;
+    height: 100%;
+}
+.container{
+    height: 100%;
+}
+/* .card{
+    width: 400px;
+    height: 350px;
+    background-color: rgba(0, 0, 0, 0.4);
+} */
+.input-group>span{
+    background-color: var(--primary);
+    border: none;
+    color: var(--white);
+}
+/* .signup_btn{
+    color: var(--white);
+    background-color: var(--primary);
+} */
+.sign_up{
+    color: var(--primary);
+    font-size: 18px;
+    text-decoration: none;
+}
+.sign_up:hover{
+    color: var(--primary);
+    font-size: 18px;
+    text-decoration: none;
+}
